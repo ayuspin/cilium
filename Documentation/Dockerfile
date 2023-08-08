@@ -18,6 +18,7 @@ RUN apk add --no-cache --virtual --update \
     py3-sphinx \
     gcc \
     musl-dev \
+    moreutils \
     && true
 
 FROM docs-base AS docs-builder
